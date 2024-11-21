@@ -4,7 +4,7 @@ import com.chs.yourbookwiki.book.domain.BookInfo
 import com.chs.yourbookwiki.presentation.UiText
 
 data class BookListState(
-    val searchQuery: String = "",
+    val searchQuery: String = "Kotlin",
     val searchResults: List<BookInfo> = emptyList(),
     val favoritesBooks: List<BookInfo> = emptyList(),
     val isLoading: Boolean = false,

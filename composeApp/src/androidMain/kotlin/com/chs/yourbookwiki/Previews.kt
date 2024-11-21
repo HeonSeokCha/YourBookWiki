@@ -22,7 +22,7 @@ private fun BookSearchBarPreView() {
             .background(Color.White)
     ) {
         BookSearchBar(
-            searchQuery = "",
+            searchQuery = "Kotlin",
             onImeSearch = { },
             onSearchQueryChange = {},
             modifier = Modifier.fillMaxWidth()
