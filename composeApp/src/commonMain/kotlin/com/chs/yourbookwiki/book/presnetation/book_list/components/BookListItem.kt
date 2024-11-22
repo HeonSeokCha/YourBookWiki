@@ -37,8 +37,8 @@ import cmp_book.composeapp.generated.resources.Res
 import cmp_book.composeapp.generated.resources.book_error_2
 import coil3.compose.rememberAsyncImagePainter
 import com.chs.yourbookwiki.book.domain.BookInfo
-import com.chs.yourbookwiki.presentation.LightBlue
-import com.chs.yourbookwiki.presentation.SandYellow
+import com.chs.yourbookwiki.core.presentation.LightBlue
+import com.chs.yourbookwiki.core.presentation.SandYellow
 import org.jetbrains.compose.resources.painterResource
 import kotlin.math.round
 

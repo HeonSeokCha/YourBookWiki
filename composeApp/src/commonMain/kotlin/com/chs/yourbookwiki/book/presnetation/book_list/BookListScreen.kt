@@ -25,7 +25,6 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.key
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -41,15 +40,15 @@ import cmp_book.composeapp.generated.resources.search_result
 import com.chs.yourbookwiki.book.domain.BookInfo
 import com.chs.yourbookwiki.book.presnetation.book_list.components.BookList
 import com.chs.yourbookwiki.book.presnetation.book_list.components.BookSearchBar
-import com.chs.yourbookwiki.presentation.DarkBlue
-import com.chs.yourbookwiki.presentation.DesertWhite
-import com.chs.yourbookwiki.presentation.SandYellow
+import com.chs.yourbookwiki.core.presentation.DarkBlue
+import com.chs.yourbookwiki.core.presentation.DesertWhite
+import com.chs.yourbookwiki.core.presentation.SandYellow
 import org.jetbrains.compose.resources.stringResource
 import org.koin.compose.viewmodel.koinViewModel
 
 @Composable
 fun BookListScreenRoot(
-    viewModel: BookListVIewModel = koinViewModel(),
+    viewModel: BookListViewModel = koinViewModel(),
     onBookClick: (BookInfo) -> Unit,
     modifier: Modifier = Modifier
 ) {

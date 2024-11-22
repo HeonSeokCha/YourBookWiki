@@ -1,4 +1,4 @@
-package com.chs.yourbookwiki.presentation
+package com.chs.yourbookwiki.core.presentation
 
 import cmp_book.composeapp.generated.resources.Res
 import cmp_book.composeapp.generated.resources.error_disk_full

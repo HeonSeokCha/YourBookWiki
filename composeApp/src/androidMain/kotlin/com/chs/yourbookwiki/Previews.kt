@@ -29,29 +29,3 @@ private fun BookSearchBarPreView() {
         )
     }
 }
-
-private val books = (1 .. 100).map {
-    BookInfo(
-        id = it.toString(),
-        title = "BOOKS${it}",
-        imageUrl = "https://text.com",
-        authors = listOf("HyeonSeok"),
-        description = "Desc $it",
-        languages = emptyList(),
-        firstPublishYear = null,
-        averageRating = 4.567812,
-        ratingCount = 5,
-        numPages = 100,
-        numEditions = 7
-    )
-}
-
-@Preview
-@Composable
-private fun BookListScreenPreView() {
-    BookListScreen(
-        state = BookListState(
-            searchResults = books
-        ), onAction = {}
-    )
-}

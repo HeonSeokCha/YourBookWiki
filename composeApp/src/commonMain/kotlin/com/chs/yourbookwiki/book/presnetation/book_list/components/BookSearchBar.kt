@@ -25,9 +25,9 @@ import androidx.compose.ui.text.input.KeyboardType
 import cmp_book.composeapp.generated.resources.Res
 import cmp_book.composeapp.generated.resources.close_hint
 import cmp_book.composeapp.generated.resources.search_hint
-import com.chs.yourbookwiki.presentation.DarkBlue
-import com.chs.yourbookwiki.presentation.DesertWhite
-import com.chs.yourbookwiki.presentation.SandYellow
+import com.chs.yourbookwiki.core.presentation.DarkBlue
+import com.chs.yourbookwiki.core.presentation.DesertWhite
+import com.chs.yourbookwiki.core.presentation.SandYellow
 import org.jetbrains.compose.resources.stringResource
 
 @Composable

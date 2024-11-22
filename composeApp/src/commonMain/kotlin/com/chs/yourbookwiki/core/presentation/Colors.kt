@@ -1,4 +1,4 @@
-package com.chs.yourbookwiki.presentation
+package com.chs.yourbookwiki.core.presentation
 
 import androidx.compose.ui.graphics.Color
 
