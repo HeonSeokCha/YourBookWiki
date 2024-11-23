@@ -1,9 +1,11 @@
-package com.chs.yourbookwiki.core.di
+package com.chs.yourbookwiki.di
 
 import com.chs.yourbookwiki.book.data.network.KtorRemoteBookDataSource
 import com.chs.yourbookwiki.book.data.network.RemoteBookDataSource
 import com.chs.yourbookwiki.book.data.repository.DefaultBookRepository
 import com.chs.yourbookwiki.book.domain.BookRepository
+import com.chs.yourbookwiki.book.presnetation.SelectedBookViewModel
+import com.chs.yourbookwiki.book.presnetation.book_detail.BookDetailViewModel
 import com.chs.yourbookwiki.book.presnetation.book_list.BookListViewModel
 import com.chs.yourbookwiki.core.data.HttpClientFactory
 import org.koin.core.module.Module
@@ -20,4 +22,6 @@ val sharedModule = module {
     singleOf(::DefaultBookRepository).bind<BookRepository>()
 
     viewModelOf(::BookListViewModel)
+    viewModelOf(::SelectedBookViewModel)
+    viewModelOf(::BookDetailViewModel)
 }

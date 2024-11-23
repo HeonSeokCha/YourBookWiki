@@ -1,4 +1,4 @@
-package com.chs.yourbookwiki.core.di
+package com.chs.yourbookwiki.di
 
 import org.koin.core.context.startKoin
 import org.koin.dsl.KoinAppDeclaration

@@ -1,4 +1,4 @@
-package com.chs.yourbookwiki.core.di
+package com.chs.yourbookwiki.di
 
 import io.ktor.client.engine.okhttp.OkHttp
 import org.koin.core.module.Module

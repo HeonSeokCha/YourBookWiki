@@ -1,4 +1,4 @@
-package com.chs.yourbookwiki.core.di
+package com.chs.yourbookwiki.di
 
 import io.ktor.client.engine.HttpClientEngine
 import io.ktor.client.engine.darwin.Darwin

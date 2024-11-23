@@ -5,7 +5,7 @@ import com.chs.yourbookwiki.book.domain.BookInfo
 
 fun SearchedBookDto.toBookInfo(): BookInfo {
     return BookInfo(
-        id = this.id,
+        id = this.id.substringAfterLast("/"),
         title = this.title,
         imageUrl = if (coverKey != null) {
             "https://covers.openlibrary.org/b/olid/${this.coverKey}-L.jpg"

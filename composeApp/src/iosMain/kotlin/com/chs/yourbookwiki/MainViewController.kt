@@ -2,7 +2,7 @@ package com.chs.yourbookwiki
 
 import androidx.compose.runtime.remember
 import androidx.compose.ui.window.ComposeUIViewController
-import com.chs.yourbookwiki.core.di.initKoin
+import com.chs.yourbookwiki.di.initKoin
 import io.ktor.client.engine.darwin.Darwin
 
 fun MainViewController() = ComposeUIViewController(

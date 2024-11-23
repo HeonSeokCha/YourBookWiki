@@ -6,6 +6,15 @@
     <string name="favorites">Favorites</string>
     <string name="no_search_result">Oops, here aren't any books for your search query.</string>
     <string name="no_favorite_books">You haven't saved any favorite book yet.</string>
+    <string name="book_cover">Book cover</string>
+    <string name="rating">Rating</string>
+    <string name="pages">Pages</string>
+    <string name="languages">Languages</string>
+    <string name="synopsis">Synopsis</string>
+    <string name="go_back">Go back</string>
+    <string name="mark_as_favorite">Mark as Favorite</string>
+    <string name="remote_from_favorites">Remove from Favorites</string>
+    <string name="description_unavailable">Description no available.</string>
     <string name="error_disk_full">Oops, it seems like your disk is full.</string>
     <string name="error_unknown">Oops, it seems like your disk is full.</string>
     <string name="error_request_time_out">Oops, something went wrong.</string>
