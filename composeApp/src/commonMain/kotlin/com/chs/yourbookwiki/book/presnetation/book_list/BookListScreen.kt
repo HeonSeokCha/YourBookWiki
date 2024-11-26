@@ -158,7 +158,7 @@ fun BookListScreen(
                     Tab(
                         selected = state.selectedTabIdx == 1,
                         onClick = {
-                            onAction(BookListAction.OnTabSelected(0))
+                            onAction(BookListAction.OnTabSelected(1))
                         },
                         modifier = Modifier.weight(1f),
                         selectedContentColor = SandYellow,
